@@ -17,6 +17,7 @@ MathJax@3 有相當的改進， MathJax 2 裡面的MathJax.Hub.Queue 已經不�
 \[x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\]
 </body>
 ```
+實例[在此](http://hjy1210.github.io/mathjax/mathjax.html)。
 ## mathjaxcomp
 在 [LearningMevn | graphql | client](https://github.com/hjy1210/LearningMevn/tree/master/graphql/client) 裡，參考了MathJax@3 的[configuration](http://docs.mathjax.org/en/latest/web/configuration.html#loading-additional-components) 與 [asciimath support](http://docs.mathjax.org/en/latest/input/asciimath.html) 實作了 [mathjaxcomp.vue](https://github.com/hjy1210/LearningMevn/blob/master/graphql/client/src/components/mathjaxcomp.vue)。
 
