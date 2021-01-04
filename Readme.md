@@ -10,13 +10,18 @@
 
 ## Graphics
 
-在網頁裡顯示圖形、操弄圖形是重要的性能。
+在網頁裡利用圖形進行人機互動，效用顯著。
 [threejs](https://threejs.org/) 與 [D3](https://d3js.org/) 是其中的佼佼者。
 
 
-[這裡](./graphics/three.md) 連結到 threejs 的自製專案，[魔術方塊玩耍](http://hjy1210.github.io/magiccube/mcn.html)。
+[魔術方塊玩耍](http://hjy1210.github.io/magiccube/mcn.html) 與 [台灣地區104年7月原住民人口](http://hjy1210.github.io/Geo/201507natives.html) 是兩個圖形應用網頁。
 
-[這裡](./graphics/d3.md) 連結到 D3 的自製專案，[D3 實例-台灣地區104年7月原住民人口](http://hjy1210.github.io/Geo/201507natives.html)。
+`魔術方塊玩耍` 利用 `threejs`，說明在[這裡](./graphics/three.md)。
+
+`台灣地區104年7月原住民人口` 則是利用 `D3`，說明在[這裡](./graphics/d3.md)。
+
+
+
 
 目前，用 [Observable](https://observablehq.com/) 來學習 D3 蔚為主流。Observable 類似 Jupyter Notebook 或 Rmd 檔案，是一種筆記本，文章與程式混合。雖然也是由cell 所組成，但有下列特色：
 * cell 的順序與程式的順序無關
@@ -28,11 +33,14 @@
 
 ## Javascript
 
-javascript [概念](./javascript/javascriptconcepts.md)
+[javascriptconcepts.md](./javascript/javascriptconcepts.md)
+
+
 
 ## QTI3.0
-[qti-demo](https://github.com/hjy1210/qti-demo) 專案可以將cml檔案轉成可用來考試與評分的json檔案。
 
-[heroku-mlab](https://github.com/hjy1210/heroku-mlab)專案可以用前述的json檔案，製作網頁進行考試。
+[qtitestform](https://sheltered-inlet-07281.herokuapp.com/cmlbank/qtitestform) 是放在網上的進行測驗的實例，他利用 heroku-mlab 與 qti-demo 兩專案來完成。
 
-[qtitestform](https://sheltered-inlet-07281.herokuapp.com/cmlbank/qtitestform) 是放在網上的進行測驗的實例。
+[qti-demo](https://github.com/hjy1210/qti-demo) 專案可以將 `cml` 檔案轉成可用來考試與評分的 `json` 檔案。
+
+[heroku-mlab](https://github.com/hjy1210/heroku-mlab) 專案可以用前述的 `json` 檔案，製作網頁進行線上練習/考試。
